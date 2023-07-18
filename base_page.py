@@ -8,4 +8,5 @@ class BasePage(Browser):
         assert expected_error_message == actual_error_message
 
 
+
 #finder_tuple = un tuplu care sa fie specific pt fiecare eroare de pe fiecre pagina

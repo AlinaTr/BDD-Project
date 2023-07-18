@@ -1,6 +1,7 @@
 from pages.checkout_page import Checkout
-from pages.login_page import LoginPage
 from pages.inventory_page import InventoryPage
+from pages.login_page import LoginPage
+# from pages.inventory_page import InventoryPage
 from browser import Browser
 from pages.shopping_cart_page import ShoppingCart
 
