@@ -3,7 +3,7 @@ Feature: Check the functionality of the Login Page
   Background:
     Given I am on the saucedemo login page
 
-  # Scenariu 1: useerr+pass corecte
+  # Scenariu 1: user + pass corecte
   # Scenariu 2: user corect +pass incorecta
   # Scenariu 3: user incorect +pass corecta
   # Scenariu 4: user incorect +pass incorecta
