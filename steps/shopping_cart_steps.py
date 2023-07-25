@@ -31,7 +31,18 @@ def step_impl(context):
 def step_impl(context):
     context.shopping_cart_page_object.click_checkout_button()
 
+@when('I click on the continue shopping button')
+def step_impl(context):
+        context.shopping_cart_page_object.click_continue_shopping_button()
+
+
 @then('I am redirected to a checkout page')
 def step_impl(context):
     context.checkout_page_object.check_checkout_url()
-    time.sleep(5)
+
+@then('I am redirected to the inventory page')
+def step_impl(context):
+    context.inventory_page_object.check_current_url()
+
+
+

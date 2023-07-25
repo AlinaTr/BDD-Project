@@ -33,7 +33,7 @@ Feature: Check the functionality of the Inventory Page
 
 
 @remove-products
-Scenario Outline: Check that I can remove multiple products from cart
+Scenario Outline: Check that I can remove multiple products from cart on inventory page
   When I click on the remove button "<product_name>" on the on the inventory page
   Then the product should be removed from the cart
   Examples:
@@ -46,7 +46,7 @@ Scenario Outline: Check that I can remove multiple products from cart
   | long_sleeve_tshirt                |
 
 @remove-products
-Scenario Outline: Check that I can remove one product from cart page
+Scenario Outline: Check that I can remove one product from cart on inventory page
   When I click on the remove button "<product_name>" on the on the inventory page
   Then the product should be removed from the cart
   Examples:

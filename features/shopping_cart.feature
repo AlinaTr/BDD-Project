@@ -8,6 +8,14 @@ Feature:Check the functionality of the Shopping Cart page
     And I can proceed to shopping cart page
 
 
-    Scenario: Check that I can proceed to Checkout
-      When I click on the checkout button
-      Then I am redirected to a checkout page
+  Scenario: Check that I can proceed to Checkout
+    When I click on the checkout button
+    Then I am redirected to a checkout page
+
+  Scenario: Check that I can continue shopping
+    When I click on the continue shopping button
+    Then I am redirected to the inventory page
+
+
+
+
