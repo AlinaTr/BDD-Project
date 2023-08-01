@@ -15,6 +15,9 @@ class Checkout(BasePage):
 
     def navigate_to_checkout_1(self):
         self.chrome.get('https://www.saucedemo.com/checkout-step-one.html')
+
+    def navigate_to_checkout_2(self):
+        self.chrome.get('https://www.saucedemo.com/checkout-step-two.html')
     def check_checkout_url(self):
         expected_url = 'https://www.saucedemo.com/checkout-step-one.html'
         actual_url = self.chrome.current_url
@@ -50,8 +53,14 @@ class Checkout(BasePage):
         overview = self.chrome.find_element(By.ID, 'checkout_summary_container')
         overview.text
 
-
     def click_finish_button(self):
         self.chrome.find_element(By.ID, 'finish').click()
+
+    def check_confirmation_message(self):
+        conf_msg = self.chrome.find_element(By.CLASS_NAME, 'complete-text')
+        expected = 'Your order has been dispatched, and will arrive just as fast as the pony can get there!'
+        actual = conf_msg.text
+        assert expected == actual, 'Error: confirmation message does not match'
+
 
 

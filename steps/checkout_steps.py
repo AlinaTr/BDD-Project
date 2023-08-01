@@ -27,6 +27,10 @@ def step_impl(context):
 def step_impl(context):
     context.checkout_page_object.click_finish_button()
 
+@when('I am redirected to checkout step 2')
+def step_impl(context):
+    context.checkout_page_object.navigate_to_checkout_2()
+
 @then('I am redirected to checkout step 2')
 def step_impl(context):
     context.checkout_page_object.check_checkout_step2_url()
@@ -38,4 +42,11 @@ def step_impl(context):
 @then('the order should be complete')
 def step_impl(context):
     context.checkout_page_object.check_checkout_step3_page()
+
+@then('I can see the confirmation message')
+def step_impl(context):
+    context.checkout_page_object.check_confirmation_message()
+
+
+
 
