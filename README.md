@@ -17,9 +17,9 @@ Welcome to my project! I have used <span style="color:#EA4444"> **BDD (Behaviour
 ## 🔶 Setup BDD Project
 1. Pycharm -> New Project
 2. pip install selenium
-3. pip install behave (a Python library to implement BDD tests in Gherkin)
-4. pip install behave-html-formatter (to generate BDD reports)
-5. pip install webdriver-manager
+3. pip install webdriver-manager
+4. pip install behave (a Python library to implement BDD tests in Gherkin)
+5. pip install behave-html-formatter (to generate BDD reports from terminal)
 
 ## 🔶 BDD Project Structure
 1.  <span style="color:#8044EA">**folder features**</span> = contains all feature files
