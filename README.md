@@ -1,5 +1,9 @@
 # BDD-Project_Swag Labs
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AlinaTr/BDD-Project/main?style=flat&logo=github&color=%2300FFFF)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/Alinatr/BDD-Project?logo=github&color=%239400D3)
+![GitHub language count](https://img.shields.io/github/languages/count/AlinaTr/BDD-Project?style=flat-square&logo=github&labelColor=black&color=seagreen)
+![GitHub top language](https://img.shields.io/github/languages/top/AlinaTr/BDD-Project?style=flat-square&logo=html&logoColor=%23E34F26)
+![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/AlinaTr/BDD-Project?style=flat-square&labelColor=black)
 
 ## 🔶 Description
 
@@ -25,5 +29,3 @@ Welcome to my project! I have used <span style="color:#EA4444"> **BDD (Behaviour
 5.   <span style="color:#8044EA">**environment file (py)**</span> = define hooks that will be called before or after each step, scenario, feature or even entire test run
 6.   <span style="color:#8044EA">**base_page file (py)**</span> =  methods that are used in multiple files, to be imported and re-used
 
-###  <span style="color:#EA4444"> This is the link to see the report:
-* https://github.com/AlinaTr/BDD-Project/commit/d7db69794bd308c7b21df7f45edf0fe287529886
