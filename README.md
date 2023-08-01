@@ -1,5 +1,5 @@
 # BDD-Project_Swag Labs
-
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AlinaTr/BDD-Project/main?style=flat&logo=github&color=%2300FFFF)
 
 ## 🔶 Description
 
